@@ -10,8 +10,6 @@
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
-section.blue {
-  text-align: left; }
   section.blue h1 {
     text-align: center; }
   section.blue li {
@@ -23,8 +21,6 @@ section.blue {
     section.blue + section.blue, section.blue + section.blue h1, section.blue + section.blue h2, section.blue + section.blue h3, section.blue + section.blue h4, section.blue + section.blue h5, section.blue + section.blue h6 {
       color: #005AA2; }
 
-section.green {
-  text-align: left; }
   section.green h1 {
     text-align: center; }
   section.green li {
@@ -36,8 +32,6 @@ section.green {
     section.green + section.green, section.green + section.green h1, section.green + section.green h2, section.green + section.green h3, section.green + section.green h4, section.green + section.green h5, section.green + section.green h6 {
       color: #B2BD3A; }
 
-section.purple {
-  text-align: left; }
   section.purple h1 {
     text-align: center; }
   section.purple li {
@@ -49,8 +43,6 @@ section.purple {
     section.purple + section.purple, section.purple + section.purple h1, section.purple + section.purple h2, section.purple + section.purple h3, section.purple + section.purple h4, section.purple + section.purple h5, section.purple + section.purple h6 {
       color: #8D3589; }
 
-section.gray {
-  text-align: left; }
   section.gray h1 {
     text-align: center; }
   section.gray li {
@@ -62,8 +54,6 @@ section.gray {
     section.gray + section.gray, section.gray + section.gray h1, section.gray + section.gray h2, section.gray + section.gray h3, section.gray + section.gray h4, section.gray + section.gray h5, section.gray + section.gray h6 {
       color: #80888C; }
 
-section.orange {
-  text-align: left; }
   section.orange h1 {
     text-align: center; }
   section.orange li {
