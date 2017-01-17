@@ -60,8 +60,9 @@ ul, ol, div, p {
 }
 .reveal .slides {
 	position: static;
-	width: 100%;
-	height: auto;
+	width: 100% !important;
+	height: auto !important;
+	zoom: 1 !important;
 
 	left: auto;
 	top: auto;
@@ -80,6 +81,12 @@ ul, ol, div, p {
 	   -moz-perspective-origin: 50% 50%;
 	    -ms-perspective-origin: 50% 50%;
 	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides .pdf-page {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
 }
 
 .reveal .slides section {
@@ -149,6 +156,15 @@ ul, ol, div, p {
 	left: auto;
 	top: auto;
 	z-index: 100;
+}
+
+/* Layout option which makes notes appear on a separate page */
+.reveal .speaker-notes-pdf[data-layout="separate-page"] {
+	position: relative;
+	color: inherit;
+	background-color: transparent;
+	padding: 20px;
+	page-break-after: always;
 }
 
 /* Display slide numbers when 'slideNumber' is enabled */
