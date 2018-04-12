@@ -112,6 +112,8 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   margin: 10px;
   display: inline-block;
   position: absolute;
+  left: 10px;
+	top: 10px;
   z-index: 1; }
 
 .line {
