@@ -4,6 +4,7 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/segoe-ui/segoe-ui-light.css);
+@import url(../../lib/css/atom-one-light.css);
 .print-pdf .reveal .slides section.noprint {
   display: none !important;
 }

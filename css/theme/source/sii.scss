@@ -12,6 +12,9 @@
 // Include theme-specific fonts
 @import url(../../lib/font/segoe-ui/segoe-ui-light.css);
 
+// Include highlight.js theme
+@import url(../../lib/css/atom-one-light.css);
+
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
 
