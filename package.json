@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/groupe-sii/scaffolder-revealjs-resources/issues"
   },
-  "homepage": "https://github.com/groupe-sii/scaffolder-revealjs-resources#readme"
+  "homepage": "https://github.com/groupe-sii/scaffolder-revealjs-resources#readme",
+  "dependencies": {
+    "sass": "^1.22.4"
+  }
 }

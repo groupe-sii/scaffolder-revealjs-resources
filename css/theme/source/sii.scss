@@ -4,15 +4,16 @@
  * By Hakim El Hattab, http://hakim.se
  */
 
-
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
 // ---------------------------------------------
 
-
 // Include theme-specific fonts
-@import url(fonts.css);
+@import url(../../lib/font/segoe-ui/segoe-ui-light.css);
+
+// Include highlight.js theme
+@import url(../../lib/css/atom-one-light.css);
 
 // Override theme settings (see ../template/settings.scss)
 $backgroundColor: #fff;
