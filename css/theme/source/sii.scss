@@ -61,7 +61,7 @@ section.has-dark-background {
 	h1 {
 		text-align: center;
 	}
-	
+
 	li {
 		list-style-type: none;
 	}
@@ -71,7 +71,7 @@ section.has-dark-background {
 	text-align: center;
 
 	li {
-		list-style-type: disc;	
+		list-style-type: disc;
 	}
 
 	&, h1, h2, h3, h4, h5, h6 {
@@ -169,13 +169,13 @@ section.orange{
 			border-right-color: $backgroundColor;
 		}
 		.navigate-right.enabled{
-			border-left-color: $backgroundColor;	
+			border-left-color: $backgroundColor;
 		}
 		.navigate-up.enabled{
 			border-bottom-color: $backgroundColor;
 		}
 		.navigate-down.enabled{
-			border-up-color: $backgroundColor;	
+			border-up-color: $backgroundColor;
 		}
 	}
 }
