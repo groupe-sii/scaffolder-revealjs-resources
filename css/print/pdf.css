@@ -167,6 +167,10 @@ ul, ol, div, p {
 	display: block;
 }
 
+.hide-print {
+	display: none;
+}
+
 .stackblitz {
 	display: none;
 }
